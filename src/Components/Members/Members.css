@@ -1,0 +1,129 @@
+.members {
+  align-items: center;
+  padding: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+.members h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.search-section {
+  display: flex;
+  flex-direction: column; /* Set the flex direction to column for vertical alignment */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-options label {
+  margin-right: 10px;
+  width: 180px;
+
+}
+
+.select-container {
+  margin-right: 10px;
+  flex-grow: 1;
+  width: 150px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+.search-input label {
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.search-input input[type='text'] {
+  width: 140px; /* Adjust the width as needed */
+}
+
+.search-button {
+  display: flex;
+  justify-content: center; /* Center align the search button horizontally */
+}
+
+
+
+.members-table {
+  max-height:120px;
+  overflow-y: auto;
+  border: #ffffff;
+  color: #fff;
+  border-width: 0.1px;
+  border-radius: 0.1cm;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+.members-table th {
+  background-color: rgba(95, 55, 255, 0.896);
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.members-table td {
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.members-table td option{
+  padding: 1rem;
+  font-size: 15px;
+}
+
+.members-table th:first-child,
+.members-table td:first-child {
+  width: 50px;
+}
+
+.table-header {
+  
+  background-color: #ba2c2c;
+  text-align: center;
+  padding: 10px;
+}
+
+select{
+  width: 150px;
+  font-size: 14px;
+}
+.contact-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.note {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 450px;
+  border: 1px solid #f8f8f8;
+  max-width: max-content;
+  padding: 20px;
+}
+  
+

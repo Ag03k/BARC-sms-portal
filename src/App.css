@@ -1,0 +1,115 @@
+/* Add your existing styles here */
+
+.App {
+  min-height: 100vh;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url('./Frame-Portal1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f2f2f2;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+/* Navbar Styles */
+
+.content {
+  flex: 1;
+}
+
+
+.navbar {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.navbar .sms-portal {
+  font-family: 'Courier New', Courier, 'Courier New';
+  color: #f2f2f2;
+  font-size: 26px;
+  margin-right: 1rem;
+  float: left;
+}
+
+.navbar .menu-icon {
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+  float: right;
+  font-size: x large;
+  cursor: pointer;
+}
+
+.navbar .menu-icon:hover{
+  
+  color: #d953fbed;
+  ;
+  margin-right: 1rem;
+}
+
+.navbar-items {
+  list-style: none;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-items li {
+  margin: 0 0.5rem;
+  list-style: none;
+}
+
+.navbar-items li a {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.navbar-items .active {
+  background-color: #d953fbed;
+}
+
+/* Footer Styles */
+
+.footer {
+  display: flex;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.navbar .menu-icon,
+.navbar-items li a,
+.footer {
+  color: #efe1e1;
+}
+
+.navbar .menu-icon:hover,
+.navbar-items li a:hover {
+  background-color: #111;
+}
+

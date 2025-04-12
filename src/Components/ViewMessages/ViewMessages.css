@@ -1,0 +1,35 @@
+.view-messages {
+    padding: 20px;
+  }
+  
+  .view-messages h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .messages-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .messages-table th,
+  .messages-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ffffff;
+  }
+  
+  .messages-table th {
+    background-color: rgba(95, 55, 255, 0.896);
+    color: #fff;
+  }
+  
+  .messages-table td {
+    white-space: pre-wrap; /* Preserve line breaks within cell content */
+  }
+  
+  .messages-table th:first-child,
+  .messages-table td:first-child {
+    width: 50px;
+  }
+  

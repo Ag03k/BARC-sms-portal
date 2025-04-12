@@ -1,0 +1,84 @@
+.templates {
+    padding: 20px;
+  }
+  
+  .templates h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .templates-table {
+    width: 100%;
+    border-collapse: collapse;
+    max-height: 300px; /* Adjust the max-height as needed */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+  
+  .templates-table th,
+  .templates-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .templates-table th {
+    background-color: rgba(95, 55, 255, 0.896);
+    color: #fff;
+  }
+  
+  .templates-table td {
+    white-space: pre-wrap; /* Preserve line breaks within cell content */
+  }
+  
+  .templates-table td .template-button {
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .add-template {
+    margin-top: 50px;
+    max-height: 300px; /* Adjust the max-height as needed */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+  }
+  
+  .add-template h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .add-template form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-template .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .add-template label {
+    margin-bottom: 5px;
+  }
+  
+  .add-template input,
+  .add-template textarea,
+  .add-template select {
+    padding: 8px;
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .add-template button[type='submit'] {
+    padding: 8px 12px;
+    background-color: rgba(95, 55, 255, 0.896);
+    color: #fff;
+    width: 200px;
+    border: white;
+    align-self: center;
+    cursor: pointer;
+  }
+  

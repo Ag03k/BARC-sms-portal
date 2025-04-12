@@ -1,0 +1,29 @@
+.user-list-table-container {
+    max-height:120px;
+    overflow-y: auto;
+    border: #000;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    border-width: 0.1px;
+    border-radius: 0.1cm;
+    border-style: dashed;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0px;
+  }
+  
+  .user-list-table th,
+  .user-list-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .user-list-table th {
+    background-color: rgba(95, 55, 255, 0.896);
+    color: rgb(0, 0, 0);
+  }
+  
