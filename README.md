@@ -1,3 +1,24 @@
+# Crisis Management Bulk SMS Portal (Frontend)
+
+This repository contains the **frontend** of a Crisis Management - Bulk SMS Portal I developed as a project trainee at Bhabha Atomic Research Centre (BARC). Due to confidentiality reasons, I am unable to share the full project, including the backend and database components. Instead, this repository includes a copy of the frontend work I completed for BARC, located in this directory.
+
+## Project Overview
+
+In my role as a project trainee at BARC, I designed and developed a crisis management Bulk SMS portal for the institution and its neighboring areas. Leveraging **React**, **Django**, and an **Advanced REST Client**, I constructed a database, integrated it with REST APIs, incorporated an SMS Gateway, and crafted an intuitive user interface within a six-week timeframe.
+
+### Key Features
+- **Intuitive UI**: Built with React to ensure a seamless user experience for crisis communication.
+- **API Integration**: Designed to interact with REST APIs for SMS Gateway functionality (backend not included here due to confidentiality).
+
+**Note**: The backend (Django, database, SMS Gateway integration) and other sensitive components are not included in this repository due to confidentiality constraints imposed by BARC.
+
+## Tech Stack
+- **Frontend**: React (available in this repository)
+- **Backend**: Django (not included due to confidentiality)
+- **API Testing**: Advanced REST Client (used for development, not included)
+- **Database**: Custom database (not included due to confidentiality)
+- **SMS Gateway**: Integrated for bulk SMS functionality (not included due to confidentiality)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
